@@ -1,0 +1,168 @@
+
+@media only screen and (max-width: 980px)
+{
+    .service .flip-box .front-face {
+        padding: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    html {
+        font-size: 60%;
+    }
+    .navbar {
+        padding: 3rem 0;
+    }
+    .navbar .nav-menu{
+        display: none;
+    }
+    .header .mobile-menu span{
+        display: block;
+    }
+    .header .hero-text {
+        width: 70%;
+    }
+
+    .span_1_of_3 {
+        width: 48.5%;
+    }
+
+    .service .box-area i {
+        font-size: 7rem;
+    }
+
+    .service .box-area .flip-box:nth-child(3) ,
+    .service .box-area .flip-box:nth-child(5) {
+        margin-left: 0px;
+    }
+    .service .box-area .flip-box:nth-child(4) {
+        margin-left: 2rem;
+    }
+
+    .portfolio .span_1_of_3 {
+        width: 31.66%; 
+    }
+
+    .blog .span_1_of_3 {
+        width: 100%; 
+    }
+
+    .blog .col {
+        margin: 1rem 0;
+    }
+
+    .testimonial .person {
+        font-size: 77%;
+    }
+
+    .testimonial .person span{
+        font-size: 1.6rem;
+    }
+
+    .section-text {
+        width: 70%;
+    }
+
+    .contact .contact-us .span_1_of_3 {
+        width: 31.66%; 
+    }
+
+    .nav-change {
+        padding: 1rem 2rem;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 480px)
+{
+
+    .header .hero-text {
+        width: 80%;
+        
+    }
+    .navbar .logo span {
+        font-size: 1.5rem;
+    }
+    .about .content-2 .bar-1,
+    .about .content-2 .bar-2 {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    .about .content-3 .left ,
+    .about .content-3 .right {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .about .content-3 .right {
+        margin-top: 3rem;
+    }
+
+    .service .box-area .flip-box {
+        width: 100%;
+    }
+    .service .box-area .flip-box:nth-child(4) {
+        margin-left: 0;
+    }
+
+    .service .box-area i {
+        font-size: 5.2rem;
+    }
+
+    .portfolio .span_1_of_3 {
+        width: 100%;
+    }
+    .portfolio .filter ul li button {
+        margin-bottom: 1rem;
+    }
+    .counter .count {
+        width: 50%;
+        font-size: 3rem;
+    }
+    .counter .count::after {
+        font-size: 1.6rem;
+    }
+
+    .testimonial .left ,
+    .testimonial .right {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+    .contact .span_1_of_3{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .contact .span_1_of_3:last-child{
+        margin-bottom: none;
+    }
+
+    .contact .left ,
+    .contact .right {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .contact textarea {
+        height: 15rem;
+        font-size: 1.6rem;
+    }
+
+    .section-text {
+        width: 95%;
+    }
+    .contact .contact-us .span_1_of_3 {
+        width: 100%; 
+    }
+    .about .ready .tab-header {
+        font-size: 2rem;
+    }
+}
