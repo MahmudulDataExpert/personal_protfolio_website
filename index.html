@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Md. Mahmudul Hasan</title>
+    
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- resources css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
+
+</head>
+<body>
+
+    <!-- start head section -->
+    <header class="row header" id="home">
+        <div class="container">
+            <nav class="row">
+                <div class="container navbar">
+                    <div class="logo">
+                        <span>Md. Mahmudul Hasan</span>
+                    </div>
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu">
+                        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                        <div class="overlay" id="myNav">
+                            <a href="javascript:void(0)" onclick="closeNav()" class="clsbtn"><i class="fas fa-times"></i></a>
+                            <div class="overlay-content">
+                                <a onclick="closeNav()" href="#home">Home</a> 
+                                <a onclick="closeNav()" href="#about">About</a> 
+                                <a onclick="closeNav()" href="#service">Services</a> 
+                                <a onclick="closeNav()" href="#portfolio">Portfolio</a> 
+                                <a onclick="closeNav()" href="#blog">Blog</a> 
+                                <a onclick="closeNav()" href="#contact">Contact</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- end head section -->
+
+    <!-- start about section -->
+
+    <div class="row about" id="about">
+        <div class="container">
+            <div class="short-info">
+                <span class="section-icon"><i class="fas fa-user-tie"></i></span>
+                <h2 class="section-name">About me</h2>
+                <p class="section-text">Experienced Founder with an exhibit history of working in the education management industry. An
+                    organized professional with proven teaching, guidance, and counselling skills. Skilled at communicating complex information simply and entertainingly. I
+                    am looking to contribute my knowledge and skills to a centre that offers a genuine opportunity for career
+                    progression, confidence, and self-reliance.
+                </p>
+            </div>
+
+            <div class="tab-container">
+                <h5 class="tab-header tab1 active">about</h5>
+                <div class="tab-content content-1 active">
+                    <div class="my-pic">
+                        <img src="Images/Mahmud.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <h2></span> Graphic & Web Designer</h2>
+                        <p>
+                            Graphic designers create visual elements, such as images, illustrations, and text, to 
+                            communicate messages through digital, print, and other types of media. Also known as 
+                            graphic artists, they can develop designs for magazines and newspapers, websites, packaging, video games, 
+                            promotional displays, marketing materials, and more
+                        </p>
+                        <p>
+                            A web designer develops and creates websites and associated applications, though 
+                            the specifics of a web designer description will vary from job to job. Web designers 
+                            work in a variety of industries and often as independent contractors. Education requirements 
+                            can vary, but web designers can get entry-level work with an associate's degree. Bachelor's 
+                            degrees provide students with an expanded and advanced skill set that can lead to better job prospects or career advancement.
+  
+                        </p>
+                        
+                    </div>
+                </div>
+
+                
+                <!-- progressbar section -->
+                <h5 class="tab-header tab2">skills</h5>
+                <div class="tab-content content-2">
+                    <div class="progress bar-1">
+                        <h2>PhotoShop</h2>
+                        <div id="ps"></div>
+                        <h2>HTML</h2>
+                        <div id="html"></div>
+                        <h2>CSS</h2>
+                        <div id="css"></div>
+                    </div>
+                    <div class="progress bar-2">
+                        <h2>BOOTSTRAP</h2>
+                        <div id="bs"></div>
+                        <h2>JAVASCRIPT</h2>
+                        <div id="js"></div>
+                        <h2>PHP</h2>
+                        <div id="php"></div>
+                    </div>
+                </div>
+
+                <h5 class="tab-header tab3">resume</h5>
+                <div class="tab-content content-3">
+                    <div class="left">
+                        <div class="head">
+                            <h5>Experiences</h5>
+                            <hr>
+                        </div>
+                        <div class="child">
+                            <h5>General Secretary</h5>
+                            <p>Green University Reading Society, Feb 02,2021 - Present</p>
+                            <hr>
+                        </div>
+                        <div class="child">
+                            <h5>Graphic Designer</h5>
+                            <p>Vitual i,Dec 15, 2019 - April 27,2020</p>
+                            <hr>
+                        </div>
+                        <div class="child">
+                            <h5>Volunteer</h5>
+                            <p>For making the British Council Popup event successful at GUB</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="right">
+                    <div class="head">
+                        <h5>Education</h5>
+                        <hr>
+                    </div>
+                    <div class="child">
+                        <h5>BSc in Computer Science and Engineering</h5>
+                        <p>Green University of Bangladesh, 2019 - Present</p>
+                        <hr>
+                    </div>
+                    <div class="child">
+                        <h5>Graphic Design</h5>
+                        <p>BRAC IT TRAINING CENTER, 2019</p>
+                        <hr>
+                    </div>
+                    <div class="child">
+                        <h5>Higher Secondary College</h5>
+                        <p>Feni City College, 2017</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- start service section -->
+
+    <div class="row service" id="service">
+        <div class="container">
+            <div class="short-info">
+                <span class="section-icon"><i class="fas fa-hands-helping"></i></span>
+                <h2 class="section-name">My Services</h2>
+                <p class="section-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere laboriosam ipsum, exercitationem illo sapiente inventore harum minima voluptate temporibus recusandae.</p>
+            </div>
+
+            <div class="box-area">
+
+                <div class="col span_1_of_3 flip-box">
+                    <div class="front-face">
+                        <div classs="front-item">
+                            <h2>Degital Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit. Corrupti quos ad Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="back-face">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3 flip-box">
+                    <div class="front-face">
+                        <div classs="front-item">
+                            <h2>Unlimited Colors</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit. Corrupti quos ad Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="back-face">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3 flip-box">
+                    <div class="front-face">
+                        <div classs="front-item">
+                            <h2>Easy to Customize</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit. Corrupti quos ad Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="back-face">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3 flip-box">
+                    <div class="front-face">
+                        <div classs="front-item">
+                            <h2>Branding</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit. Corrupti quos ad Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="back-face">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3 flip-box">
+                    <div class="front-face">
+                        <div classs="front-item">
+                            <h2>SEO Marketing</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit. Corrupti quos ad Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="back-face">
+                        <i class="fab fa-stumbleupon-circle"></i>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3 flip-box">
+                    <div class="front-face">
+                        <div classs="front-item">
+                            <h2>Responsive Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur elit. Corrupti quos ad Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="back-face">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- start portfolio section -->
+
+    <div class="row portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="short-info">
+                    <span class="section-icon"><i class="far fa-images"></i></span>
+                    <h2 class="section-name">My Portfolio</h2>
+                    <p class="section-text">Lorem ipsum dolor sit, amet Gubergren eos sea dolore clita stet at et dolor sanctus. Ipsum sed eos et invidunt labore sed. Est vero ea.consectetur adipisicing elit. Facere laboriosam ipsum, exercitationem illo sapiente inventore harum minima voluptate temporibus recusandae.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="filter">
+                    <ul>
+                        <li><button type="button" class="itup-control-active" data-filter="all" class="active">all</button></li>
+                        <li><button type="button" data-filter=".design">design</button></li>
+                        <li><button type="button" data-filter=".development">development</button></li>
+                        <li><button type="button" data-filter=".branding">branding</button></li>
+                        <li><button type="button" data-filter=".photography">photography</button></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row mix-it-up">
+                <div class="col span_1_of_3 mix design photography">
+                    <div class="item-box">
+                        <a href="Images/photography.jpg" class="box-link">
+                            <img src="Images/photography.jpg" alt="" class="img">
+                            <div class="item-mask">
+                                <div class="item-caption">
+                                    <h4>Project Ttile</h4>
+                                    <p>Branding, Design, Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 mix development photography">
+                    <div class="item-box">
+                        <a href="Images/development.jpg" class="box-link">
+                            <img src="Images/development.jpg" alt="" class="img">
+                            <div class="item-mask">
+                                <div class="item-caption">
+                                    <h4>Project Ttile</h4>
+                                    <p>Branding, Design, Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 mix design development">
+                    <div class="item-box">
+                        <a href="Images/design.jpg" class="box-link">
+                            <img src="Images/design.jpg" alt="" class="img">
+                            <div class="item-mask">
+                                <div class="item-caption">
+                                    <h4>Project Ttile</h4>
+                                    <p>Branding, Design, Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 mix branding">
+                    <div class="item-box">
+                        <a href="Images/branding.jpg" class="box-link">
+                            <img src="Images/branding.jpg" alt="" class="img">
+                            <div class="item-mask">
+                                <div class="item-caption">
+                                    <h4>Project Ttile</h4>
+                                    <p>Branding, Design, Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 mix design development">
+                    <div class="item-box">
+                        <a href="Images/web_des.jpg" class="box-link">
+                            <img src="Images/web_des.jpg" alt="" class="img">
+                            <div class="item-mask">
+                                <div class="item-caption">
+                                    <h4>Project Ttile</h4>
+                                    <p>Branding, Design, Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 mix photography design" type="button">
+                    <div class="item-box">
+                        <a href="Images/photograph.jpg" class="box-link">
+                            <img src="Images/photograph.jpg" alt="" class="img">
+                            <div class="item-mask">
+                                <div class="item-caption">
+                                    <h4>Project Ttile</h4>
+                                    <p>Branding, Design, Development</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end portfolio section -->
+
+    <!-- start testimonial section -->
+
+    <div class="row testimonial" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="short-info">
+                    <span class="section-icon"><i class="fas fa-users"></i></span>
+                    <h2 class="section-name">What People Say</h2>
+                    <p class="section-text">Lorem ipsum dolor sit, Aliquyam lorem ea rebum et consetetur dolore sit dolor. Duo no ipsum gubergren ea kasd. Lorem invidunt kasd clita sit.amet consectetur adipisicing elit. Facere laboriosam ipsum, exercitationem illo sapiente inventore harum minima voluptate temporibus recusandae.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <div class="quote-icon">
+                        <span><i class="fas fa-quote-left"></i></span>
+                    </div>
+                    <div class="quote">
+                        <p>“Number one is just to gain a passion for running. One man practicing sportsmanship is To love the morning, to love the trail, to love the pace on the track. And if some kid gets really good at it, that’s cool too.”</p>
+                    </div>
+                    <div class="person">
+                        <p><span>– Pat Tyson</span></p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="quote-icon">
+                        <span><i class="fas fa-quote-left"></i></span>
+                    </div>
+                    <div class="quote">
+                        <p>“Most people give up just when they’re about to achieve success. They quit on the one yard line. They give up at the last minute of the game one foot from a winning touchdown.”</p>
+                    </div>
+                    <div class="person">
+                        <p><span>– Ross Perot</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end testimonial section -->
+
+    <!-- start blog section -->
+
+    <div class="row blog" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="short-info">
+                    <span class="section-icon"><i class="fas fa-newspaper"></i></span>
+                    <h2 class="section-name">Latest News</h2>
+                    <p class="section-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere laboriosam ipsum, exercitationem illo sapiente inventore harum minima voluptate temporibus recusandae.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3 box">
+                    <p class="title">Web Design</p>
+                    <h2>Best Personal Template on Themeforest</h2>
+                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nemo sit sequi dignissimos pariatur nostrum nihil provident maxime corporis natus.</p>
+                    <a href="#">Read More &#8594;</a>
+                </div>
+                <div class="col span_1_of_3 box">
+                    <p class="title">WordPress</p>
+                    <h2>WordPress Personal theme on Themeforest</h2>
+                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nemo sit sequi dignissimos pariatur nostrum nihil provident maxime corporis natus.</p>
+                    <a href="#">Read More &#8594;</a>
+                </div>
+                <div class="col span_1_of_3 box">
+                    <p class="title">Trends</p>
+                    <h2>Exploring 3D & Web Design Trends</h2>
+                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nemo sit sequi dignissimos pariatur nostrum nihil provident maxime corporis natus.</p>
+                    <a href="#">Read More &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end blog section -->
+
+    <!-- start contact section -->
+
+    <div class="row contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="short-info">
+                    <span class="section-icon"><i class="fas fa-street-view"></i></span>
+                    <h2 class="section-name">Contact me</h2>
+                    <p class="section-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere laboriosam ipsum, exercitationem illo sapiente inventore harum minima voluptate temporibus recusandae.</p>
+                </div>
+            </div>
+            <div class="row contact-us">
+                <div class="col span_1_of_3 adrs">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>West Shewrapra, Mirpur, Dhaka,<br> Bangladesh</p>
+                </div>
+                <div class="col span_1_of_3 phn">
+                    <i class="fas fa-phone"></i>
+                    <p>+880 1317 693245 <br> +880 1857 599512</p>
+                </div>
+                <div class="col span_1_of_3 mail">
+                    <i class="far fa-envelope"></i>
+                    <p>mmh.cse.gd@gmail.com <br> mahmud.data@outlook.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <input type="text" placeholder="Your Name...">
+                </div>
+                <div class="right">
+                    <input type="email" placeholder="Your E-Mail...">
+                </div>
+            </div>
+            <div class="row">
+                <input type="text" placeholder="Your Subject...">
+            </div>
+            <div class="row">
+                <textarea placeholder="Your Massage" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="row">
+                <input type="submit" value="Send Massege">
+            </div>
+        </div>
+    </div>
+
+    <!-- end contact section -->
+
+    <!-- start footer section -->
+
+    <div class="row footer">
+        <div class="container">
+            <div class="row name">
+                <span>Follow Me</span>
+            </div>
+            <div class="row">
+                <ul>
+                    <li><a href="https://www.facebook.com/mhgraphicsgalaxy" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/mmh.cse.gd/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.behance.net/mhgraphics99" target="_blank"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="https://github.com/mahmud-data" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mm-hasan-339291194/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="row cpyrgt">
+                <p>© 2021 <span class="brand"> Mahmudul Hasan</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- end footer section -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/plugins/jquery.lineProgressbar.js"></script>
+    <script src="js/plugins/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
